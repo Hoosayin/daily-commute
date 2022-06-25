@@ -10,6 +10,7 @@ Following are the classes that are used in this project:
 
 - **Node:** This class represents a station. This station can exist on any layer. It contains pointers to the next node and the down node, and an integral station number. 
 - **LinkedList:** This class represents the entire multi-layered linked list. This class contains a pointer to the first train station, i.e. m_trainZero, which is the head node of the list. Let’s explore its methods:
+
   - **MakeList():** The driver code reads an input file of stations, creates integer arrays of corresponding layers, and passes them to this method. This method initializes head node and creates the nodes using provide integer arrays.
   - **RemoveTrainStation():** This method takes station number as an argument, and removes it from the layer of train stations.
   - **AddBusStation():** This method takes a station number as an argument, and adds it to the layer of bus stations.
